@@ -56,8 +56,21 @@ nav a:hover {
   opacity: 0.7;
 }
 
-.nameContainer {
+main,
+section,
+.Main {
   display: flex;
   flex-direction: column;
+}
+
+.Main {
+  gap: 8px;
+}
+
+main {
+  gap: 64px;
+}
+
+section {
   gap: 32px;
 }
