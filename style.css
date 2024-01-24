@@ -54,6 +54,7 @@ nav {
 
 nav a {
   cursor: pointer;
+  text-decoration: none;
 }
 
 nav a:hover {
@@ -73,7 +74,7 @@ section,
 
 main {
   gap: 64px;
-  padding-buttom: 64px;
+  padding-bottom:64px;
 }
 
 section {
@@ -147,7 +148,7 @@ section {
 .Mainproject {
   display: flex;
   flex-direction: column;
-  gap: 24px;
+  gap: 32px;
 }
 
 .Eachproject {
@@ -191,7 +192,13 @@ section {
  flex-direction: row !important;
  align-items: center;
  gap: 8px !important;
- color: var(--primary-color) 
+ color: var(--primary-color);
+ text-decoration: none;
+ cursor: pointer;
+}
+
+.linkItem:hover {
+  opacity: 0.7;
 }
 
 .linkItem p {
