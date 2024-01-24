@@ -93,7 +93,6 @@ section {
 
 .Stats{
  display: flex;
- flex-direction: column;
  align-items: stretch;
  gap: 24px;
 }
@@ -124,3 +123,29 @@ section {
 .Me {
   line-height: 1.5em;
 }
+
+.Reach{
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.Reach i {
+  transform: rotate(-45deg);
+}
+
+@media (min-width: 640px) {
+  .Stats {
+    flex-direction: row;
+  }
+  
+  .Childstats {
+    gap: 0px;
+  }
+  
+  .Me{
+    width: 80%;
+    margin-right: auto;
+    }
+}
+
