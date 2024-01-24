@@ -74,3 +74,15 @@ main {
 section {
   gap: 32px;
 }
+
+.Picture {
+  border-radius: 100%;
+  max-width: 114px;
+  overflow: hidden;
+}
+
+.Picture img {
+  width: 100%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
