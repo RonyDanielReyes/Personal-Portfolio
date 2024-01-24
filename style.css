@@ -73,6 +73,7 @@ section,
 
 main {
   gap: 64px;
+  padding-buttom: 64px;
 }
 
 section {
