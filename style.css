@@ -205,18 +205,56 @@ section {
   font-size: 0.9em;
 }
 
-@media (min-width: 640px) {
-  .Stats {
-    flex-direction: row;
+@media (max-width: 640px) {
+  body {
+    padding: 10px; /* Adjust the padding for smaller screens */
   }
-  
-  .Childstats {
-    gap: 0px;
-  }
-  
-  .Me{
-    width: 80%;
-    margin-right: auto;
-    }
-}
 
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  main, section, .Main, .Mainproject, .Eachproject, .Eachproject>div:last-child {
+    gap: 20px;
+  }
+
+  .Eachproject {
+    flex-direction: column;
+  }
+
+  .Eachproject>div:last-child {
+    max-width: 100%;
+    aspect-ratio: auto;
+  }
+
+  .Me {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .Stats {
+    flex-direction: column;
+  }
+
+  .Childstats {
+    gap: 10px;
+  }
+
+  .Reach {
+    width: 100%;
+    margin-right: 0;
+    justify-content: center;
+  }
+
+  .Linkitem {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
